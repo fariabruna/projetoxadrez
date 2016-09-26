@@ -14,8 +14,8 @@ namespace projetoxadrez
 
             int x = int.Parse(Console.ReadLine());
 
-            int y = 2 * x;
-            Console.WriteLine("DOBRO = " + y);
+            int y = 3 * x;
+            Console.WriteLine("Triplo = " + y);
             Console.ReadLine();
         }
     }
