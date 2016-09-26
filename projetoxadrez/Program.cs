@@ -5,10 +5,8 @@ namespace projetoxadrez{
     class Program{
         static void Main(string[] args){
 
-            Posicao p;
-            p = new Posicao(1, 2);
 
-            Console.WriteLine("POSICAO = " + p);
+            Tabuleiro tab = new Tabuleiro(8, 8);           
 
             Console.ReadLine();
 
