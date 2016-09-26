@@ -1,22 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using tabuleiro;
 
-namespace projetoxadrez
-{
-    class Program
-    {
+namespace projetoxadrez{
+    class Program{
         static void Main(string[] args){
 
-            Console.Write("Digite uma valor inteiro: ");
+            Posicao p;
+            p = new Posicao(1, 2);
 
-            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("POSICAO = " + p);
 
-            int y = 3 * x;
-            Console.WriteLine("Triplo = " + y);
             Console.ReadLine();
+
         }
     }
 }
