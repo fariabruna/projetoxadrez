@@ -49,9 +49,13 @@
     <Compile Include="tabuleiro\Peca.cs" />
     <Compile Include="tabuleiro\Posicao.cs" />
     <Compile Include="tabuleiro\Tabuleiro.cs" />
+    <Compile Include="Tela.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Xadrez\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

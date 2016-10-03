@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace tabuleiro{
+﻿namespace tabuleiro{
     class Tabuleiro{
 
         private Peca[,] pecas;
@@ -15,6 +9,11 @@ namespace tabuleiro{
             this.linhas = linhas;
             this.colunas = colunas;
             pecas = new Peca[linhas, colunas];
+        }
+
+        public Peca peca(int linha, int coluna){
+            return pecas[linha, coluna];
+
         }
     }
 }
